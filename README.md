@@ -1,7 +1,10 @@
 # **Microservicios simples con Docker Compose**
 Este proyecto muestra un ejemplo básico de arquitectura de microservicios, utilizando:
+
 *saludo-service → Devuelve un mensaje de saludo.
+
 *cliente-service → Llama al saludo-service y muestra el mensaje combinado.
+
 Ambos servicios corren y se comunican entre sí mediante Docker Compose.
 
  **Estructura del proyecto**
@@ -26,6 +29,7 @@ microservicios-simples/
 └── docker-compose.yml
 
  -Cómo ejecutar el proyecto
+ 
 1️.- Clonar el repositorio
 
 git clone <URL_DE_TU_REPOSITORIO>
