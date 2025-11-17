@@ -20,6 +20,7 @@ microservicios-simples/
  -Cómo ejecutar el proyecto
 1️.- Clonar el repositorio
 git clone <URL_DE_TU_REPOSITORIO>
+
 cd microservicios-simples
 
 2️.- Construir e iniciar los microservicios
