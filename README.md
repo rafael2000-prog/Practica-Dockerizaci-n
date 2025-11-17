@@ -5,20 +5,28 @@ Este proyecto muestra un ejemplo básico de arquitectura de microservicios, util
 Ambos servicios corren y se comunican entre sí mediante Docker Compose.
 
  **Estructura del proyecto**
+ 
 microservicios-simples/
+
 │
 ├── saludo-service/
+
 │   ├── Dockerfile
+
 │   └── app.js
 │
 ├── cliente-service/
+
 │   ├── Dockerfile
+
 │   └── app.js
+
 │
 └── docker-compose.yml
 
  -Cómo ejecutar el proyecto
 1️.- Clonar el repositorio
+
 git clone <URL_DE_TU_REPOSITORIO>
 
 cd microservicios-simples
